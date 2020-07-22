@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<h2><em><center>Ladakh</em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="lad2.webp" width="1000" height="400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="lad3.jpg"  width="1000" height="400">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<ul>
+  <li><a class="active" href="#Itenary">Itenary</a></li>
+  <li><a href="Inclusion &  Exclusion ">Inclusion &  Exclusion </a></li>
+  <li><a href="#Hotel  Details">Hotel  Details </a></li>
+  <li><a href="#History">History </a></li>
+</ul>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<p>03 Nights / 04 Days : Destination Covered : Leh, Monasteries, Khardungla Top</p>
+
+<p>Day 01: Arrival Leh</ b>by morning flight and transfer to the hotel. After welcome drink take a complete rest for acclimatization to the height altitude of Leh (3500 mtrs). In the late afternoon drive to the city for an orientation walk in the markets‚ followed by a visit to Shanti Stupa‚ Leh palace. Dinner and overnight in Hotel.</p>
+
+
+<p>Day 02:LEH EXCURSION TO MONASTERIES (50 KMS / 02 HRS – ONE WAY)< : Post Breakfast we proceed for Indus Valley Monastery Starting with Hemis Gompa, the largest monastic foundation of Drukpa Kagyu Order of Tibetan Buddhism, Thiksey Monastery an impressive complex rising tier upon tier on a hill above the village, Shey Palace, The ancient capital of Ladakh, 3 Idiots Rancho School & Sindhu Ghat. After visiting above places we drive back to Leh. Overnight at Hotel. </p>
+
+
+<p>Day 02:DAY 03: LEH - EXCURSION TO KHARDUNGLA TOP - 18,390 FT. (40 KMS / 02 HRS ONE WAY) : After Breakfast drive to Khardong-la (80 Kms round trip), highest motorable pass in the world (alt. 18‚380 ft)‚ and recorded in the Guinness Book of world records. On the way back from the pass‚ you will be rewarded with spectacular views of the Indus valley and the endless peak of the Zanskar range. Rest of the day free explore the market. Dinner and overnight in Hotel.</p>
+
+
+<p>Day 04: DEPART LEH (FLY OUT) <: Transfer to Domestic Airport to catch the flight for your onward Destination. </p>
+
+
+
+
+</body>
+</html> 
+
+
+
+
+
+

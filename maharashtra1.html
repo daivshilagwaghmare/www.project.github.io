@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<h2><em><center>Maharashtra </em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="mah15.jpg" width="1000" height="400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="mah14.jpg"  width="1000" height="400">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<ul>
+  <li><a class="active" href="#Itenary">Itenary</a></li>
+  <li><a href="maharashtrab inclusion1.html ">Inclusion &  Exclusion </a></li>
+  <li><a href="maharashtra hotel1.html">Hotel  Details </a></li>
+  <li><a href="maharashtra history1.html">History </a></li>
+</ul>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<p>2 Night 3 Days ( Alibaug 1N - Murud 1N )</p>
+
+<p><b>Day 01: Mumbai/Pune-Alibaug</b> : Departure early in the Morning to Alibaug (145 Km from Mumbai & 148 Km from Pune)on arrival visit to Kulaba Fort in the Sea.Then Proceedto Aksa, Nagaon beach,Sasawane beach,Varsoli beach,Revdanda port & Kihim beach evening return to Alibaug. Evening at Alibaug beach & o/n halt.</p>
+
+
+<p><b>Day 02:Alibaug-Murud</b>: After B/F proceeds to Kashid beach.Kashid is an offbeat destination which is growing inpopularity in travelers’ itineraries.Sandwiched between two rocky hill rocks, Kashid Beach on the shores of the Arabian Sea is one of the most beautiful stretches in the Konkan region of Maharashtra .White sand beaches fringed by casuarinas trees and back droppedby mountains, paddy fields and rivulets,is the special charm of this 
+coastal strip.Kashid is135 Km from Mumbai and 30 Km from Alibaug and 27km from Murud. The drive from Alibaug to Kashid is the perfect way to capture the picturesque rural scenery. After Kashid beach proceed to Murud City and check in at hotel / resort evening is free to spend on Murud beach o/n halt.</p>
+
+
+
+
+
+
+
+
+</body>
+</html> 
+
+
+
+
+
+

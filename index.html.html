@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+ 
+}
+font-family: Cambria Math;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ font-family: Cambria Math;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Cambria Math;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+body, html {
+  height:50 %;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: right;
+}
+
+/* Add styles to the form co
+  min-height: 50px;
+
+  /* Center and scale the image nicely */
+  background-position: centerntainer */
+.container {
+  position: right;
+  right: 1;
+  margin: 20px;
+  max-width: 20px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity
+</style>
+</head>
+<body>
+
+<h2><em><center>Waghmare Tour & Travels </em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="dub4.jpg" width="1250" height= 400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="go1.jpg"  width="1250" height=400">
+  
+</div>
+
+
+<div class="mySlides fade">
+  <img src="mah3.jpg"  width="1250" height="400">
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+
+</div>
+
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Tour<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="2.html">Domestic Places </a>
+      <a href="4.html">Weekends Places</a>
+    <a href="3.html">International  Places</a>
+     
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Inquiry <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="ticket.html">Ticket Book</a>
+      <a href="hotel booking.html">Hotel Book</a>
+      <a href="packages.html">Packages Book</a>
+     
+    </div>
+  </div> 
+  <div class="navbar">
+  <a href="register.html">Book Now</a>
+
+</div>
+  
+<div class="navbar">
+  <a href="contract.html">Contact Us</a>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+<br><br><br><br><br>
+<p style="font-family:Cambria Math;">
+<b>Waghmare Tours and Travels </b>, start imagining DIFFERENT CULTURE, LANGUAGE,RELIGION,CLIMATE AND SOCIAL LIFE IN ONE COUNTRY. 
+<b>Waghmare Tours and Travels</b>, is one of the leading brand name in the tourism industry catering guests since 2016. It is a brand that you can reckon 
+This is a hospitality company which is multi dimensional and focused to the changing scenario of the taste and preferences of the 
+Our professional team is specialized to render their hospitality to all segments delegates from multi- national companies or expatriates 
+visiting our nation.</p>
+
+<p style="font-family:Cambria Math;">
+<b>We India Tours and Travels</b>,  never compromise in quality and always believe in giving service at lowest price and higher satisfaction of customers
+ so that customer should always comeback with their lover and dear in future. Our customer is our representative for our service and honesty. 
+Because of reputation with vendor we get best deal in all sectors and Because of vast experience we make package at very economical price. 
+We believe in making relation rather than selling our product So you will feel friendly people all over destination, not our counter part . 
+Our experience and friendly team will give you atmost satisfactory information and support for your all your calls and queries. 
+We work from 7.30 am to 10.30pm just to render service to our customers. Kindly find below the area of operation that we are specialized in:
+
+
+
+
+
+
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html> 
+
+
+
+
+
+

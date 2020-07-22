@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<h2><em><center>Kerala TOUR NO 02</em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="ker1.jpg" width="1000" height="400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="ker2.jpg"  width="1000" height="400">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<ul>
+  <li><a class="active" href="#Itenary">Itenary</a></li>
+  <li><a href="kerala inclusio2.html ">Inclusion &  Exclusion </a></li>
+  <li><a href="keralahotel2.html">Hotel  Details </a></li>
+  <li><a href="kerala history2.html">History </a></li>
+</ul>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<p><b>(05 Nights / 06 Nights) 1N Cochin - 2N Munnar - 1N Thekkady – 1N Alleppey</p></b>
+<p>Day 01 - Arrive at Cochin : On arrival at the Cochin seaport/airport/railway station, meet our representative who will be there for your warm welcome and afterwards to transfer you to your already booked hotel in Cochin. Check in at the hotel and the rest of the day is free at leisure. During your free time, you can walk out to explore the surroundings, interact with locals, visit local markets or stay back in hotel to take pleasure of its modern amenities. Or if time allows proceed for Cochin Sightseeing includes Chinese Fishing Nets, St.Francis Church, Jewish Synagogue, and Dutch Palace. Evening sunset cruise in the backwater of Cochin (own cost). </p>
+
+
+<p>Day 02 - Cochin to Munnar : Morning after breakfast drive to Munnar. Visit Cheeyapara and Valara water falls on the way to Munnar. Throughout the journey enjoy beautiful streams small waterfalls, Rubber, Pepper cardamom and Tea plantations and thick forests; God has blessed his own country with incomparable beauty on arrival at Munnar check in to Hotel. At leisure. Overnight stay in Hotel/resort.</p>
+
+<p>Day 03 – Munnar : Morning after breakfast proceed to enjoy full day sight seeing tour of Munnar. Rose Garden, Tea Garden, Photo Point, Honeybee Tree, Madupetty Dam/Lake, Echo Point & Kundala Dam/Lake. Overnight stay at hotel/resort.</p>
+
+<p>Day 04 - Munnar to Thekkady: Morning after breakfast , continue your journey to Thekkady reaching there in few hours. Check into the resort and relax. Later on proceed for a spice plantation tour. Explore wide variety of spices in kerala. You may also shop few varieties. Travel by boat on the Periyar Lake to spot the elephants and avifauna for which this reserve is well known. Boat cruises and sunrise and sunset are particularly recommended. Back to the hotel for an overnight stay..</p>
+
+<p>Day 05 - Thekkady to Alleppey : Morning after breakfast leave for Alleppey, Allappuza famous for its backwaters. Visit Alleppey beach, sunset and enjoy shopping if staying in Alleppey. Visit Alleppey Beach and Backwaters and enjoy shopping if staying in Kumarakom. Enjoy all the amenities of this hotel/resort for a day which includes fishing in the backwaters (depends on the hotel/resort selected) Overnight stay at same hotel/resort".</p>
+
+
+</body>
+</html> 
+
+
+
+
+
+

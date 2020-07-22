@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<h2><em><center>Rajasthan</em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="raj2.jpeg" width="1000" height="400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="raj8.jpg"  width="1000" height="400">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<ul>
+  <li><a class="active" href="#Itenary">Itenary</a></li>
+  <li><a href="raj inclusion.html ">Inclusion &  Exclusion </a></li>
+  <li><a href="rajhotel1.html">Hotel  Details </a></li>
+  <li><a href="rajhistroy.html">History </a></li>
+</ul>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<p>(06 Nights / 07 Days) Jaipur 2N - Jodhpur 2N - Udaipur 2N</p>
+
+<p>Day 01: Jaipur Airport / Railway Station – Hotel : Meet & Greet on arrival at Jaipur Railway Station / Airport & transfer to hotel. Check-in to hotel. In the evening you can take an optional tour to visit Laxminarayan Temple (Birla Mandir) & Chokhi Dhani – An Ethnic Village Resort. Back to hotel. Overnight stay at Jaipur.</p>
+
+
+<p>Day 02: Jaipur Local Sightseeing :  After breakfast start for full day local sightseeing in Jaipur. Visit Amber Fort & Palace, “Gaitore” Cenetophs (Front View), take a photo stop at Jal Mahal, City Palace & Museum, Jantar Mantar (Observatory) & take a photo stop at Hawa Mahal. Evening free for leisure. Overnight stay at Jaipur.</p>
+
+
+<p>Day 03: Jaipur – Jodhpur (336 Km / 6 hrs) : After breakfast transfer to Jodhpur. On arrival check-in to your hotel. Overnight stay at Jodhpur.</p>
+
+
+<p>Day 04: Jodhpur Local Sightseeing : After breakfast start for Jodhpur city tour. Covering Umaid Bhawan Palace Museum, Mehrangarh Fort- situated on a low sandstone hill. Within the fort visit Moti Mahal and Phool Mahal. Also visit Jaswant Thada – an imposing marble cenotaph built in memory of Maharaja Jaswant Singh II around 1899, Kaylana Lake and Mandore Garden. Evening free for leisure. Overnight stay at Jodhpur.</p>
+
+
+<p>Day 05: Jodhpur – Udaipur via Ranakpur (260 Km / 4 hrs) : After breakfast transfer to Udaipur. Enroute visit Ranakpur Chaumukha Temple built in 1439. This marble temple has 29 halls supported by 1444 pillars. On arrival check-in to your hotel. In the evening take a breathtaking boat tour over the picturesque Lake Pichola (at your own cost) to admire the royal buildings around the Lake and enjoy the scenic sunset view. From the lake you have a wonderful view of the City Palace stretching along the east bank, while the south bank has pleasant gardens running down to the waterside. Overnight stay at Udaipur.</p>
+
+
+<p>Day 06: Udaipur Local Sightseeing : After breakfast start for Udaipur city tour. Visiting Fateh Sagar, Maharana Pratap Memorial, take a photo stop at Nehru Garden, Sehelion-KI-Bari – Queen’s resort for their friends, Sukhadia Circle (Drive Pass), Bhartiya Lok kala Museum – a museum of folk and art, it displays a rich collection of folk dresses, ornaments, puppets, masks, dolls. After that visit City Palace – The largest palace complex of Rajasthan, Jagdish Temple – built by Maharana Jagat Singh and is dedicated to Lord Vishnu & Gulab Bagh. Overnight stay at Udaipur.</p>
+
+
+<p>Day 07: Hotel – Udaipur Airport / Railway Station : After breakfast check out from hotel and transfer to Udaipur Railway Station / Airport for your onward journey.</p>
+
+
+</body>
+</html> 
+
+
+
+
+

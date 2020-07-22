@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<h2><em><center>MUMBAI</em></center> </h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="mum8.jpg" width="1000" height="400">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="mum7.jpg"  width="1000" height="400">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<ul>
+  <li><a class="active" href="#Itenary">Itenary</a></li>
+  <li><a href="mumbai inclusion1.html ">Inclusion &  Exclusion </a></li>
+  <li><a href="Mumbaihotel1.html">Hotel  Details </a></li>
+  <li><a href="Mumbai history1.html">History </a></li>
+</ul>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<p>Matheran Weekend  Tour No 1</p>
+
+<p><b>Day 01 : Mumbai - Matheran (105 kms)</b> : Meet on arrival at Mumbai Airport / Railway station and drive to Matheran. On arrival check-in at hotel. Evening free for leisure. Overnight stay at the hotel.
+
+Matheran is a Hill Station and a municipal council in the Raigad district in the Indian state of Maharashtra. It is a hill station in Karjat Tahsil and is also the smallest hill station in India. It is located on the Western Ghats range at an elevation of around 800 m (2,625 feet) above sea level.</p>
+
+<p><b>Day 02 : Matheran</b>: After breakfast spend the the day to explore the natural beauty of Matheran covering Vantage Points – Matheran's hills offer some of the most stunning views of the landscape. The Panorama Point is located 6 kms from the market and is believed to be the longest point in Matheran and is a popular spot for picnics. It is from here that the mountain ranges of Khandala Bhimashankar are visible. The Heart Point offers a view of Mumbai at night. The Echo Point derives its name from the acoustic echo it provides. Louisa Point is another popular point in Matheran with its beautiful waterfalls. Monkey Point owes its name to the profusion of monkeys that are constantly up to their antics. Sunset Point offers views of Prabalgad, one of the forts of Chattrapati Shivaji's Fort.</p>
+
+<b>The Mall Road</b>
+<p>The main focus of Matheran's activities is the Mall Road that stretches from one end to the other. It has hotels, restaurants and bazaars lining on both sides. The main market in this area offers several items for purchase including leather and cane articles and food stuff. You can also hire ponies for your sightseeing from this point</p>
+
+<b>Lakes </b>
+<p> Located about 2 kms from the Post Office, Charlotte Lake offers some of the most amazing scenery. It is flanked by the Pisarnath Temple on the left, and the Echo Point and Louisa Point on the right. This lake is also the source of the city's drinking water. Evening transfer to hotel. Overnight stay at hotel.</p>
+
+<p><b>Day 03 : Matheran - Mumbai (105 kms)</b>:  After breakfast drive back to Mumbai. On arrival transfer to Airport/Railway station for your onward destination.</p>
+
+
+
+
+</body>
+</html> 
+
+
+
+
+
+
